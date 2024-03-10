@@ -1,0 +1,6 @@
+jupyter
+pypdf
+langchain
+langchain_openai
+faiss-gpu
+sentence-transformers
