@@ -1,0 +1,56 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "doxygen_strings-long",
+  "dataset_size": 10811911,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/LukasSonn/DoxygenStrings-Long@570223bc1ca108ec53de3e9e3a9e8dbe83e309ca/train_long_dict.json": {
+      "num_bytes": 9808462,
+      "checksum": null
+    },
+    "hf://datasets/LukasSonn/DoxygenStrings-Long@570223bc1ca108ec53de3e9e3a9e8dbe83e309ca/test_long_dict.json": {
+      "num_bytes": 1951050,
+      "checksum": null
+    }
+  },
+  "download_size": 11759512,
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "context": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 22571423,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 9018765,
+      "num_examples": 10235,
+      "dataset_name": "doxygen_strings-long"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1793146,
+      "num_examples": 2047,
+      "dataset_name": "doxygen_strings-long"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

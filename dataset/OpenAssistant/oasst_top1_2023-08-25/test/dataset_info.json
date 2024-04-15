@@ -1,0 +1,48 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "oasst_top1_2023-08-25",
+  "dataset_size": 24349448,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/OpenAssistant/oasst_top1_2023-08-25@745b4a3d123f65ab0cac34a84a0528f6d2b67d1e/oasst_top1_2023-08-25_train.jsonl": {
+      "num_bytes": 31011496,
+      "checksum": null
+    },
+    "hf://datasets/OpenAssistant/oasst_top1_2023-08-25@745b4a3d123f65ab0cac34a84a0528f6d2b67d1e/oasst_top1_2023-08-25_eval.jsonl": {
+      "num_bytes": 1609986,
+      "checksum": null
+    }
+  },
+  "download_size": 32621482,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 56970930,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 23133538,
+      "num_examples": 12947,
+      "dataset_name": "oasst_top1_2023-08-25"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1215910,
+      "num_examples": 690,
+      "dataset_name": "oasst_top1_2023-08-25"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,17 @@
+dataset_mixer:
+  - argilla/dpo-mix-7k
+  - argilla/dpo-mix-7k:
+      split:
+        train: train
+        test: test
+      chat_template: chatml
+  - argilla/dpo-mix-7k:
+      chat_template: chatml
+  - /home/kenyo/workspace/LLM-Trainer/dataset/LukasSonn/DoxygenStrings-Long:
+      split:
+        train: train
+        test: test
+  - /home/kenyo/workspace/LLM-Trainer/dataset/LukasSonn/DoxygenStrings-Long:
+      split:
+        train: train.json
+        test: test.json
